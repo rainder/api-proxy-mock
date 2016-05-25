@@ -28,7 +28,9 @@
     "mock"
   ],
   "license": "ISC",
-  "bin": "bin/api-proxy-mock",
+  "bin": {
+    "api-proxy-mock": "./bin/api-proxy-mock"
+  },
   "main": "index.js",
   "maintainers": [
     {
