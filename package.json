@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "name": "api-proxy-mock",
   "description": "Proxies calls to the API, memoizes them and serves them later",
   "author": {
