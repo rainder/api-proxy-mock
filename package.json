@@ -22,17 +22,13 @@
   },
   "devDependencies": {},
   "directories": {},
-  "dist": {
-    "shasum": "bf398fea85389e3720ea7bb3eac2673380bc1b6f",
-    "tarball": "http://registry.npmjs.org/api-proxy-mock/-/api-proxy-mock-0.1.0.tgz"
-  },
-  "gitHead": "fda14deeab5c2645f15c42c7bd1aad832b6f0089",
   "keywords": [
     "proxy",
     "api",
     "mock"
   ],
   "license": "ISC",
+  "bin": "bin/api-proxy-mock",
   "main": "index.js",
   "maintainers": [
     {
