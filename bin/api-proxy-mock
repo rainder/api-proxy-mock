@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+'use strict';
+
+const program = require('commander');
+const skerlaConsole = require('skerla-console');
+const _ = require('lodash');
+const co = require('co');
+const main = require('./../lib/main');
+
+_.extend(global.console, skerlaConsole());
+
+program.option('--config <file>', 'Config file', null);
+program.option('--local_port <num>', 'HTTP port to listen to');
+program.option('--capture', 'Defines if non existent queries should be proxied to the origin and captured', false);
+
+program.parse(process.argv);
+
+co(main(program)).catch(e => console.error(e));

@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "name": "api-proxy-mock",
+  "description": "Proxies calls to the API, memoizes them and serves them later",
+  "author": {
+    "name": "Andrius Skerla"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-request": "^1.0.0",
+    "co-try-catch": "^0.1.2",
+    "commander": "^2.9.0",
+    "debug": "^2.2.0",
+    "koa": "^1.2.0",
+    "lodash": "^4.13.1",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.3.1",
+    "skerla-console": "^0.2.0"
+  },
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "bf398fea85389e3720ea7bb3eac2673380bc1b6f",
+    "tarball": "http://registry.npmjs.org/api-proxy-mock/-/api-proxy-mock-0.1.0.tgz"
+  },
+  "gitHead": "fda14deeab5c2645f15c42c7bd1aad832b6f0089",
+  "keywords": [
+    "proxy",
+    "api",
+    "mock"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "andrius.skerla@gmail.com",
+      "name": "rainder"
+    }
+  ],
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!"
+}
